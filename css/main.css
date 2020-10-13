@@ -8,22 +8,35 @@ a, button,
 
 mg-...
 
+las fuentes en general, 
+
 */
-.btn{
+
+
+.s-btn{
     border-style: solid !important;
+    background: fixed !important;
+    min-width: 90px !important;
+}
+
+.s-btn-solid{
+    background-color: #f03 !important; /*pare dinamica degradao e una misxin*/
+
+    border: 0px !important;
+    padding: 5px !important;
+    color: #fff !important; 
 }
 
 a, button, link{
+    transition: 0.3s all ease;
     outline: none !important;
     text-decoration: none !important;
-
-    
 }
 
-.r-5{
+.s-r-5{
     border-radius: 5px !important;
 }
 
-.r-25{
+.s-r-25{
     border-radius: 25px !important;
 }
