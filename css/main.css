@@ -1,4 +1,24 @@
 
-.r-20{
-    border-radius: 20px;
+/*
+bg-...
+
+r-...
+
+a, button, 
+
+mg-...
+
+*/
+
+a, button, link{
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.r-5{
+    border-radius: 5px !important;
+}
+
+.r-25{
+    border-radius: 25px !important;
 }
