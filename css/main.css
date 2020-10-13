@@ -4,15 +4,20 @@ bg-...
 
 r-...
 
-a, button, MAS
+a, button,
 
 mg-...
 
 */
+.btn{
+    border-style: solid !important;
+}
 
 a, button, link{
     outline: none !important;
     text-decoration: none !important;
+
+    
 }
 
 .r-5{
